@@ -1,0 +1,2 @@
+var menuDesplegable=document.getElementById("menu-desplegable"),menuOpen=document.getElementById("menu-open"),menuClose=document.getElementById("menu-close");function mostrar(){menuDesplegable.classList.add("aparece")}function desaparecer(){menuDesplegable.classList.remove("aparece")}menuOpen.addEventListener("click",mostrar),menuClose.addEventListener("click",desaparecer);
+//# sourceMappingURL=index.d00331e4.js.map

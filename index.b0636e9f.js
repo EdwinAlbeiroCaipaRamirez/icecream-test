@@ -1,0 +1,2 @@
+$(document).ready((function(){$slideshow=$(".slider-one").slick({slidesToShow:1,slidesToScroll:1,arrows:!1,fade:!0,autoplay:!0,autoplaySpeed:25e3,mobileFirst:!1,asNavFor:".slider-two"}),$(".slider-two").slick({slidesToShow:1,slidesToScroll:1,asNavFor:".slider-one",arrows:!0,dots:!0}),$(".slider-one__card").click((function(){$slideshow.slick("slickNext")}))}));
+//# sourceMappingURL=index.b0636e9f.js.map
