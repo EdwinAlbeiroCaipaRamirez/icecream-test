@@ -80,7 +80,7 @@
   }
   &--milkshakes {
     background-color: $truck;
-    @media screen and(max-width:767px) {
+    @media screen and(max-width:768px) {
       margin-bottom: 0;
     }
   }
@@ -291,7 +291,7 @@
     transform: translate(-50%, -0%);
     width: 26px;
     height: 6px;
-    border-bottom: 6px dotted var(--color-design-white);
+    border-bottom: 6px dotted $main;
   }
 }
 .products__text {
