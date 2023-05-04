@@ -4,21 +4,19 @@
     <h3 class="about__subtitle _anim-items _anim-no-hide">how it’s made?</h3>
     <div class="about-container">
       <picture>
-        <img
-          srcset="
-            ./images/mobile/about/cow.png      280w,
-            ./images/mobile/about/cow@2x.png   650w,
-            ./images/tablet/about/cow.png      340w,
-            ./images/tablet/about/cow@2x.png   680w,
-            ./images/desktop/about/cow.png     516w,
-            ./images/desktop/about/cow@2x.png 1032w
-          "
-          sizes="(min-width: 1200px) 516w, 
-            (min-width: 768px) 340w, (min-width: 320px) 280w"
-          src="./images/mobile/about/cow.png"
-          alt=""
-          class="img"
+        <source
+          media="screen and (min-width: 1200px)"
+          srcset="./images/mobile/aboutb/cow2x.png"
         />
+        <source
+          media="screen and (max-width: 768px)"
+          srcset="./images/tablet/about/cow@2x.png"
+        />
+        <source
+          media="screen and (min-width: 1200px)"
+          srcset="./images/desktop/about/cow@2x.png"
+        />
+        <img src="./images/desktop/about/cow.png" alt="cow" />
       </picture>
       <div class="about__main-text">
         <div class="about__text _anim-items _anim-no-hide">
