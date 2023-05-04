@@ -50,12 +50,13 @@
   fill: $main;
 }
 .modal-title {
-  position: relative;
-  color: $main;
+  font-family: 'Titan One';
   font-size: 26px;
+  text-align: center;
+  color: $main;
   padding-bottom: 160px;
   margin-bottom: 0;
-  text-align: center;
+  position: relative;
 }
 .modal-image {
   position: absolute;
