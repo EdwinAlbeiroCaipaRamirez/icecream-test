@@ -336,15 +336,6 @@
   }
 }
 .hero__link {
-  position: absolute;
-  left: 200px;
-  bottom: 13px;
-  @media (min-width: 768px) {
-    top: 315px;
-  }
-}
-
-.hero__link-arrow {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -355,17 +346,25 @@
   background-color: #fff;
   fill: #d41443;
   transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  left: 200px;
+  bottom: 13px;
+  &:hover,
+  &:focus {
+    transform: scale(1.3);
+    background-color: $btn1-prod-loc;
+    fill: $btn2-franchise;
+  }
+  @media (min-width: 768px) {
+    top: 315px;
+  }
 }
+
 .hero__icon-arrow {
   width: 10px;
   height: 10px;
 }
-.hero__link:hover .hero__link-arrow,
-.hero__link:focus .hero__link-arrow {
-  transform: scale(1.3);
-  background-color: $btn1-prod-loc;
-  fill: $btn2-franchise;
-}
+
 .hero__tasty {
   width: 300px;
   display: none;
